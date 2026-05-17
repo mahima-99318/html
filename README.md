@@ -23,6 +23,10 @@ hyper text markup language
 6.list item tag <li></li>
 7.Unorder list tag <ul></ul>
 8.type attribute type=""(circle, square)
+9.sub tag <sub></sub>
+10.super tag <sup></sup>
+11.delete tag <del></del>
+12.underline tag <u></u>
 
 
 
