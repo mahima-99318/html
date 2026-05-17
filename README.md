@@ -27,7 +27,7 @@ hyper text markup language
 10.super tag <sup></sup>
 11.delete tag <del></del>
 12.underline tag <u></u>
-
+13.italic tag <i></i>
 
 
 
