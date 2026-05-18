@@ -28,6 +28,15 @@ hyper text markup language
 11.delete tag <del></del>
 12.underline tag <u></u>
 13.italic tag <i></i>
+14. mark tag <mark></mark>
 
-
+18-05-2026
+1.form tag <form></form>
+2.label tag <label></label>
+3.input tag <input>
+4.select tag <select></select>
+5.button tag <button></button>
+6.attributes type="" (text,number,date,email,radio)
+7.attributes placeholder=""
+8.option tag <option></option>
 
