@@ -40,3 +40,18 @@ hyper text markup language
 7.attributes placeholder=""
 8.option tag <option></option>
 
+20-05-2026
+1.img tags <img>
+2.src attributes src=""
+3.anchor tags <a></a>
+4.href attributes href=""
+5.vedio tags <vedio controls> </vedio>
+6.source tag <sources src="">
+7.width attributes width=""
+8.height attributes height=""
+9.audio tag <audio controls></audio>
+10.header tag <header></header>
+11.footer tag <footer></footer>
+12.division tag <div></div>
+13.iframe tag <iframe></iframe>
+14.selection tag <selection></selection>
