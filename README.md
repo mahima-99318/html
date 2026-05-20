@@ -28,7 +28,7 @@ hyper text markup language
 11.delete tag <del></del>
 12.underline tag <u></u>
 13.italic tag <i></i>
-14. mark tag <mark></mark>
+14.mark tag <mark></mark>
 
 18-05-2026
 1.form tag <form></form>
