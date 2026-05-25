@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+
+    <style>
+
+        /* Global Selector */
+        *{
+            margin: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+            font-family: Verdana;
+        }
+
+        body{
+            background-color: lightblue;
+        }
+
+        /* Element Selector */
+        h1{
+            text-align: center;
+            color: darkblue;
+            margin-bottom: 20px;
+        }
+
+        /* Class Selector */
+        .textbox{
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid rgb(95, 111, 233);
+            border-radius: 5px;
+        }
+
+        /* ID Selector */
+        #registerbtn{
+            width: 100%;
+            padding: 12px;
+            background-color: darkblue;
+            color: rgb(227, 120, 120);
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        /* Group Selector */
+        label, p{
+            color: rgb(223, 124, 124);
+            font-weight: bold;
+        }
+
+        .container{
+            width: 450px;
+            background-color: rgb(196, 229, 232);
+            margin: 40px auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgb(180, 78, 78);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Registration Form</h1>
+
+        <form>
+
+            <label>Student Name</label>
+            <input type="text" class="textbox">
+
+            <label>Father Name</label>
+            <input type="text" class="textbox">
+
+            <label>Email Address</label>
+            <input type="email" class="textbox">
+
+            <label>Mobile Number</label>
+            <input type="text" class="textbox">
+
+            <label>Date of Birth</label>
+            <input type="date" class="textbox">
+
+            <p>Course</p>
+
+            <input type="radio" name="course"> BCA
+            <input type="radio" name="course"> B.Tech
+            <input type="radio" name="course"> MBA
+
+            <br><br>
+
+            <label>Address</label>
+            <textarea class="textbox"></textarea>
+
+            <input type="submit" value="Register" id="registerbtn">
+
+        </form>
+
+    </div>
+
+</body>
+</html>

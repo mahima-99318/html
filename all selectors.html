@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Application Form</title>
+
+    <style>
+        /* Global Selector */
+        * {
+            font-family: Arial;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #306d90;
+        }
+
+        /* Element Selector */
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        /* Class Selector */
+        .inputbox {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid rgb(2, 84, 105);
+            border-radius: 5px;
+        }
+
+        /* ID Selector */
+        #submitbtn {
+            background-color: green;
+            color: rgb(18, 20, 21);
+            padding: 10px ;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        /* Group Selector */
+        label,
+        p {
+            font-weight: bold;
+            color: rgba(12, 12, 12, 0.87);
+        }
+
+        .formbox {
+            width: 400px;
+            background: rgba(160, 117, 158, 0.551);
+            padding: 10px 10px 10px 10px;
+             margin: auto;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px 10px rgb(78, 77, 77);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="formbox">
+
+        <h1>Application Form</h1>
+
+        <form>
+
+            <label>Full Name</label>
+            <input type="text" class="inputbox">
+
+            <label>Email</label>
+            <input type="email" class="inputbox">
+
+            <label>Phone Number</label>
+            <input type="text" class="inputbox">
+
+            <label>College</label>
+            <input type="text" class="inputbox">
+
+            <label>Address</label>
+            <input type="address" class="inputbox">
+
+            <label>year</label>
+            <select> 
+                <option>1st year</option>
+                <option>2nd year</option>
+                <option>3rd year</option>
+                <option>4th year</option>
+            </select><br>
+
+
+
+
+
+            <br>
+
+            <label>Branch</label>
+        <select>
+            <option>CSE</option><br>
+            <option>AI&ML</option><br>
+            <option>AI&DS</option>
+            <option>CS</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>others</option>
+        </select> <br>
+
+
+        <br>
+
+         <label>Events</label>
+        <select>
+            <option>spotevents</option>
+            <option>treasurehunt</option>
+            <option>singging</option>
+            <option>dancing</option>
+            <option>codesprint</option>
+        </select> <br>
+
+
+
+
+
+
+
+        <br>
+
+            <p>Gender</p>
+
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+
+            <br><br>
+
+            <input type="submit" value="Submit" id="submitbtn">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
