@@ -55,3 +55,13 @@ hyper text markup language
 12.division tag <div></div>
 13.iframe tag <iframe></iframe>
 14.selection tag <selection></selection>
+
+#CSS basic
+23-05-2026
+1.styles (colors,font styles)
+2.padding
+3.position
+4.selectors
+5.display
+6.position
+7.flexbox
